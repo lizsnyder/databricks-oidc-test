@@ -4,5 +4,8 @@ on:
 jobs:
   hello:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - run: echo "hello from reusable workflow"
