@@ -1,0 +1,6 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  call-deploy:
+    uses: ./.github/workflows/reusable.yml
