@@ -1,13 +1,13 @@
 bundle:
-  name: liz-test
+  name: liz-app
 
 targets:
   prod:
     mode: production
     workspace:
-      host: https://e2-dogfood.staging.cloud.databricks.com
-      root_path: /Workspace/Users/77dd968f-e353-45fc-a30d-d34f5b581fd3/.bundle/${bundle.name}/${bundle.target}
+      host: https://db-sme-demo-docs.cloud.databricks.com
+      root_path: /Workspace/Users/1a70ea09-680c-4aad-b67e-f3d56cb43a02/.bundle/${bundle.name}/${bundle.target}
     resources:
       apps:
-        liz_test:
-          name: liz-test
+        liz_app:
+          name: liz-app
