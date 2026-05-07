@@ -11,3 +11,4 @@ targets:
       apps:
         liz_app:
           name: liz-app
+          source_code_path: ./app
