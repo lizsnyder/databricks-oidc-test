@@ -16,6 +16,7 @@ jobs:
       DATABRICKS_AUTH_TYPE: github-oidc
       DATABRICKS_HOST: ${{ vars.DATABRICKS_HOST }}
       DATABRICKS_CLIENT_ID: ${{ vars.DATABRICKS_CLIENT_ID }}
+      DATABRICKS_ACCOUNT_ID: 7a99b43c-b46c-432b-b0a7-814217701909
     steps:
       - uses: actions/checkout@v4
 
